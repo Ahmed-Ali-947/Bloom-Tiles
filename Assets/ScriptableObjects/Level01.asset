@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9f544cc790cbde4cac51f62af3e256e, type: 3}
+  m_Name: Level01
+  m_EditorClassIdentifier: Assembly-CSharp::LevelData
+  islands:
+  - boardOffset: {x: -2, y: 0}
+    layerSettings:
+    - horizontalOffset: 0
+      verticalOffset: 0
+    - horizontalOffset: 1
+      verticalOffset: 0
+    - horizontalOffset: 0
+      verticalOffset: 0
+  - boardOffset: {x: -2, y: -2}
+    layerSettings:
+    - horizontalOffset: 0
+      verticalOffset: 0
+    - horizontalOffset: 0
+      verticalOffset: 0
+    - horizontalOffset: 0
+      verticalOffset: 0
+    - horizontalOffset: 0
+      verticalOffset: 0
+  tiles:
+  - tileData: {fileID: 11400000, guid: 2f5f19d8dd6776141b98a52f3cd0e6ce, type: 2}
+    gridPosition: {x: 0, y: 0}
+    layer: 0
+    islandIndex: 0
+  - tileData: {fileID: 11400000, guid: 0955042c0d2420644b47bceb74cf4c35, type: 2}
+    gridPosition: {x: 1, y: 0}
+    layer: 0
+    islandIndex: 0
+  - tileData: {fileID: 11400000, guid: 0955042c0d2420644b47bceb74cf4c35, type: 2}
+    gridPosition: {x: 2, y: 0}
+    layer: 0
+    islandIndex: 0
+  - tileData: {fileID: 11400000, guid: 684f8f73630ad1241a48532141bd1d4d, type: 2}
+    gridPosition: {x: 3, y: 0}
+    layer: 0
+    islandIndex: 0
+  - tileData: {fileID: 11400000, guid: 0955042c0d2420644b47bceb74cf4c35, type: 2}
+    gridPosition: {x: 4, y: 0}
+    layer: 0
+    islandIndex: 0
+  - tileData: {fileID: 11400000, guid: 684f8f73630ad1241a48532141bd1d4d, type: 2}
+    gridPosition: {x: 1, y: 0}
+    layer: 1
+    islandIndex: 0
+  - tileData: {fileID: 11400000, guid: 684f8f73630ad1241a48532141bd1d4d, type: 2}
+    gridPosition: {x: 2, y: 0}
+    layer: 1
+    islandIndex: 0
+  - tileData: {fileID: 11400000, guid: 684f8f73630ad1241a48532141bd1d4d, type: 2}
+    gridPosition: {x: 3, y: 0}
+    layer: 1
+    islandIndex: 0
+  - tileData: {fileID: 11400000, guid: 684f8f73630ad1241a48532141bd1d4d, type: 2}
+    gridPosition: {x: 4, y: 0}
+    layer: 1
+    islandIndex: 0
+  - tileData: {fileID: 11400000, guid: 684f8f73630ad1241a48532141bd1d4d, type: 2}
+    gridPosition: {x: 2, y: 0}
+    layer: 2
+    islandIndex: 0
+  - tileData: {fileID: 11400000, guid: 684f8f73630ad1241a48532141bd1d4d, type: 2}
+    gridPosition: {x: 3, y: 0}
+    layer: 2
+    islandIndex: 0
+  - tileData: {fileID: 11400000, guid: 684f8f73630ad1241a48532141bd1d4d, type: 2}
+    gridPosition: {x: 2, y: 1}
+    layer: 2
+    islandIndex: 0
+  - tileData: {fileID: 11400000, guid: 684f8f73630ad1241a48532141bd1d4d, type: 2}
+    gridPosition: {x: 0, y: 0}
+    layer: 0
+    islandIndex: 1
+  - tileData: {fileID: 11400000, guid: 2f5f19d8dd6776141b98a52f3cd0e6ce, type: 2}
+    gridPosition: {x: 0, y: 0}
+    layer: 1
+    islandIndex: 1
+  - tileData: {fileID: 11400000, guid: 684f8f73630ad1241a48532141bd1d4d, type: 2}
+    gridPosition: {x: 0, y: 0}
+    layer: 2
+    islandIndex: 1
+  - tileData: {fileID: 11400000, guid: 0955042c0d2420644b47bceb74cf4c35, type: 2}
+    gridPosition: {x: 0, y: 0}
+    layer: 3
+    islandIndex: 1
